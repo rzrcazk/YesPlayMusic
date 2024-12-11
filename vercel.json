@@ -2,7 +2,8 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://neteasecloudmusicapi-lac-two.vercel.app/:match*"
+      "destination": "https://api.lolimi.cn/API/wydg/:match*",
+      "destination.bak":"https://neteasecloudmusicapi-lac-two.vercel.app/:match*"
     }
   ]
 }
